@@ -1,0 +1,19 @@
+{
+  "name": "artem_rubets/test",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "artem_rubets",
+      "email": "artemrubets27@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-simplexml": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {"App\\": "app/"}
+  }
+}

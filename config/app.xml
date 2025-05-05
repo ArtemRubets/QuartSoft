@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app>
+    <bin_provider>
+        <driver>api</driver> <!--api, database, file-->
+        <api_url>https://lookup.binlist.net</api_url>
+    </bin_provider>
+    <exchangerate_provider>
+        <driver>api</driver> <!--api, database, file-->
+        <api_url>https://api.exchangeratesapi.io/latest</api_url>
+    </exchangerate_provider>
+</app>
